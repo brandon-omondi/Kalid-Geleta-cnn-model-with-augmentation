@@ -34,7 +34,7 @@ augmented_datagen = ImageDataGenerator(
 validation_split=0.2
 )
 
-# Train generator (original images only)
+# Train generator (original images only) g
 original_train_generator = original_datagen.flow_from_directory(
     dataset_dir,
     target_size=img_size,
